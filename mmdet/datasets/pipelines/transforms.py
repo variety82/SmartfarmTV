@@ -451,6 +451,8 @@ class RandomFlip:
                 non_flip_ratio = 1 - sum(self.flip_ratio)
                 flip_ratio_list = self.flip_ratio + [non_flip_ratio]
             else:
+                #print(type(self.flip_ratio))
+                #print(self.flip_ratio)
                 non_flip_ratio = 1 - self.flip_ratio
                 # exclude non-flip
                 single_ratio = self.flip_ratio / (len(direction_list) - 1)

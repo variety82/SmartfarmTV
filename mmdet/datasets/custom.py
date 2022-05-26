@@ -52,7 +52,7 @@ class CustomDataset(Dataset):
             during tests.
     """
 
-    CLASSES = None
+    CLASSES = ('Detected')
 
     PALETTE = None
 
