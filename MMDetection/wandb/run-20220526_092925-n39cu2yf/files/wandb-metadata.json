@@ -1,0 +1,26 @@
+{
+    "os": "Linux-4.4.0-59-generic-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-05-26T09:29:26.778926",
+    "startedAt": "2022-05-26T09:29:25.516344",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "config/../mywork/cascade_rcnn/swin_cascade_rcnn_x101_64x4d_fpn_20e_coco.py"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/boostcampaitech3/final-project-level3-cv-01.git",
+        "commit": "afcd11aa6e0552a5a070c7d884bc4199fbddd0d9"
+    },
+    "email": "somang@nsl.inha.ac.kr",
+    "root": "/opt/ml/mmdetection",
+    "host": "7d3060979599",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}

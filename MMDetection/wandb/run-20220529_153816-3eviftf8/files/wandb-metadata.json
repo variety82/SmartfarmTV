@@ -1,0 +1,26 @@
+{
+    "os": "Linux-4.4.0-59-generic-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-05-29T15:38:17.985432",
+    "startedAt": "2022-05-29T15:38:16.720754",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "config/../mywork/dyhead/atss_r50_fpn_dyhead_1x_coco.py"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/boostcampaitech3/final-project-level3-cv-01.git",
+        "commit": "afcd11aa6e0552a5a070c7d884bc4199fbddd0d9"
+    },
+    "email": "somang@nsl.inha.ac.kr",
+    "root": "/opt/ml/mmdetection",
+    "host": "7d3060979599",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}
