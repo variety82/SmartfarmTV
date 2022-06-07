@@ -8,7 +8,7 @@ log_config = dict(
         init_kwargs=dict(
             project = 'Cabbage_Detection',
             entity = 'cv_01-2',
-            name = 'cascade_rcnn'
+            name = 'cascade_rcnn_mosaic'
             ),
         )
         # dict(type='TensorboardLoggerHook')
